@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 
 * {
     margin: 0;
@@ -6,21 +6,24 @@
     border: none;
 }
 
-ol > li {
-
-
+#menu {
     float: right;
+    color: rgb(211, 34, 34);
+    font-size: x-large;
 }
 
-h2 {
-    color: red;
+#menu a:hover {
+    border-top: 1px solid sienna;
 }
 
-#h.outer {
-    color: red;
+h1,h2 {
+    color: seagreen;
+    text-transform: uppercase;
+    letter-spacing: 8px;
 }
 
-#nav {
-    color: red;
-    float: right;
+body {
+    
+    font-weight: 600;
 }
+
