@@ -17,13 +17,31 @@
 }
 
 h1,h2 {
-    color: seagreen;
+    color: seagreen;z
     text-transform: uppercase;
     letter-spacing: 8px;
-}
+    }
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
 
 body {
     
     font-weight: 600;
+}
+
+#bear {
+    max-width: 100%;
+    height: 400px;
+    background: url('../css/images/bear-1102605_960_720.jpg') no-repeat center
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+
 }
 
