@@ -7,6 +7,12 @@
     background-color: orange;
 }
 
+#logo {
+    color: seagreen;
+    border: orange;
+
+}
+
 ol, ul {
     list-style: none;
     float: right;
@@ -45,7 +51,7 @@ h1,h2 {
     letter-spacing: 8px;
     }
 
-    h2 {
+    h2:hover {
         
         text-transform: uppercase;
     }
