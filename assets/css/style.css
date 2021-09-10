@@ -176,9 +176,24 @@ p.gallery{
 
 }
 
-   #right-p {
-       
-   }
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+    background-size: cover;
+ 
+}
+ #photos > img {
+     width: 100%;
+     background-size: cover;
+ }
+
+ #photos {
+    column-count: 3;
+}
+
+
    .left-heading {
        float: left;
        height: 200px;
