@@ -82,6 +82,19 @@ body {
     width: 100%;
 }
 
+.full_colum{
+    display: block;
+    position: relative;
+    width: 100%;
+		max-width:800px;
+		margin:20px auto 0 auto;
+    height: auto;
+		text-align:center;
+}
+.full_colum p {
+    margin-top:20px;
+}
+
 .one_third_colum{
     display: inline-block;
     position: relative;
@@ -193,6 +206,9 @@ p.gallery{
     
  .social-networks {
      text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     letter-spacing: 20px;
  }
  
  .social-networks > li {
