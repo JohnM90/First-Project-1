@@ -23,11 +23,6 @@
 
 }
 
-#menu:hover{
-    text-transform: uppercase;
-}
-
-
   
 
 h1,h2 {
@@ -46,16 +41,6 @@ body {
     font-weight: 600;
 }
 
-#about {
-    text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-    margin-top: 0%;
-    
-    
-}
 
 .about-us {
     color: seagreen;
