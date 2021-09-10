@@ -116,16 +116,12 @@ body {
 
 #elephants {
     background: url('../css/images/zoo-elephants.jpg') no-repeat;
-    height: 500px;
+    height: 385px;
     background-size: cover;
     background-position: center;
 }
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  
 
 p.gallery{
     font-size: x-large;
