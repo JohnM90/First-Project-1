@@ -108,29 +108,7 @@ p.gallery{
     margin-bottom: 15px;
 }
 
-/*large screens*/
 
-@media screen and (max-width: 1200px) {
-    
-    }
-
-
-/*medium screens*/
-
-@media screen and (max-width: 950px) {
-     {
-    
-        
-    
-     
-
-
-
-/*small screen sizes*/
-
-@media  screen and (max-width:800px) {
-   
-    }
 
 
 #bear {
@@ -167,9 +145,9 @@ p.gallery{
     border: 1px solid blue;
     margin-left: 5%;
     display: block;
-    
-
 }
+
+
 
 #photos {
     clear: both;
