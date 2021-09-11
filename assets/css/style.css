@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,9 @@
 
 body {
     background-color: rgb(199, 150, 58);
+    font-family: merriweather, sans-serif;
+    font-family: merriweather, sans-serif;
+    font-weight: 900;
 }
 
 #logo {
@@ -37,19 +42,14 @@ h1 {
         text-transform: uppercase;
     }
 
-body {
-    
-    font-weight: 600;
-}
 
 
 
 
-    h3 {
+    h3, h4 {
     margin-left: auto;
     margin-right: auto;
-    
-    }
+   }
 
 
 
@@ -107,6 +107,31 @@ p.gallery{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+/*large screens*/
+
+@media screen and (max-width: 1200px) {
+    
+    }
+
+
+/*medium screens*/
+
+@media screen and (max-width: 950px) {
+     {
+    
+        
+    
+     
+
+
+
+/*small screen sizes*/
+
+@media  screen and (max-width:800px) {
+   
+    }
+
 
 #bear {
     width: 90%;
@@ -228,7 +253,7 @@ p.gallery{
      color: #3a3a3a;
      border: 20px;
  }
- 
+
 .signup-page {
     background: url('../css/images/giraffe.jpg');
 }
