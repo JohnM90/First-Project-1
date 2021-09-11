@@ -44,6 +44,8 @@ h1 {
 
 
 
+   
+
 
 
     h3, h4 {
@@ -92,9 +94,9 @@ h1 {
 
 
 
-#elephants {
-    background: url('../css/images/zoo-elephants.jpg') no-repeat;
-    height: 385px;
+#elephant {
+    background: url('../css/images/pexels-energepiccom-3839150.jpg') no-repeat;
+    height: 400px;
     background-size: cover;
     background-position: center;
 }
@@ -108,9 +110,17 @@ p.gallery{
     margin-bottom: 15px;
 }
 
+@media only screen and (min-width: 768px) {
 
+}
 
+@media only screen and (min-width: 600px) {
 
+}
+
+ @media only screen and (min-width: 992px) {
+
+ }
 #bear {
     width: 90%;
     height: 250px;
@@ -128,7 +138,7 @@ p.gallery{
 #lion {
     width: 90%;
     height: 250px;
-    background: url('../css/images/lion.jpg') no-repeat center center;
+    background: url('../css/images/pexels-gareth-davies-1598377\ \(1\).jpg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
     border: 1px solid blue;
@@ -250,4 +260,31 @@ p.gallery{
      display: inline;
     }
 
- 
+    
+
+    @media only screen and (max-width: 600px) {
+
+    }
+
+    @media only screen and (min-width: 768px) {
+    
+    }
+    
+    @media only screen and (min-width: 600px) {
+    
+    }
+    
+     @media only screen and (min-width: 992px) {
+    
+     }
+    
+
+    
+
+    @media only screen and (min-width: 992px) {
+
+    }
+   
+    @media only screen and (min-width: 1200px) {
+
+    }
