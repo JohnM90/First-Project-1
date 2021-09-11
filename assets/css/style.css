@@ -253,13 +253,28 @@ p.gallery{
     
 }
 
+.button {
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    
+    
+}
 
- .signup-form {
-     height: 100px;
-     border-style: solid;
-     display: inline;
-    }
+.button:hover {
+    background-color: blue;
+    color: #fff;
+    
 
+}
+
+
+
+    .text {
+         box-sizing: border-box;
+         border-radius: 10%;
+         border: 1px solid blue;
+         display: inline;
+          }
     
 
     @media only screen and (max-width: 600px) {
