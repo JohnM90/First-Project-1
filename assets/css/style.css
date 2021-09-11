@@ -25,7 +25,7 @@ body {
 
 #menu li {
     display: inline;
- letter-spacing: 5px;
+    letter-spacing: 5px;
 
 }
 
@@ -66,10 +66,10 @@ h1 {
     display: block;
     position: relative;
     width: 100%;
-		max-width:800px;
-		margin:20px auto 0 auto;
+    max-width:800px;
+    margin:20px auto 0 auto;
     height: auto;
-		text-align:center;
+    text-align:center;
 }
 .full_colum p {
     margin-top:20px;
@@ -108,6 +108,7 @@ p.gallery{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -123,7 +124,7 @@ p.gallery{
  }
 #bear {
     width: 90%;
-    height: 250px;
+    height: 300px;
     background: url('../css/images/bear-1102605_960_720.jpg') no-repeat center center;
     border-radius: 50%;
     float: left;
@@ -137,7 +138,7 @@ p.gallery{
 
 #lion {
     width: 90%;
-    height: 250px;
+    height: 300px;
     background: url('../css/images/pexels-gareth-davies-1598377\ \(1\).jpg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
@@ -148,7 +149,7 @@ p.gallery{
 
 #gorilla {
     width: 90%;
-    height: 250px;
+    height: 300px;
     background: url('../css/images/gorilla.jpg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
@@ -256,9 +257,7 @@ p.gallery{
 .button {
     padding: 10px 10px 10px 10px;
     border-radius: 8px;
-    
-    
-}
+    }
 
 .button:hover {
     background-color: blue;
