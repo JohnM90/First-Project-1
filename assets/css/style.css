@@ -109,7 +109,21 @@ h1 {
     border: 1px solid black;
 }
 
+@media only screen and (min-width: 250px) and (max-width: 670px){
+    .one_third_colum {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
+    #times, h4 {
+        margin-top: -2%;
+        }
+
+    section {
+        margin-top: -20%;
+    }
+}
 
 #elephant {
     background: url('../css/images/pexels-energepiccom-3839150.jpg') no-repeat;
@@ -125,7 +139,7 @@ p.gallery{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    line-height: 10%;
+    
 }
 
 
@@ -221,10 +235,11 @@ p.gallery{
    #times {
     background-size: contain;
     background-position: center;
-    width: 50%;
+    width: 70%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 15px;
 }
 
 #times div {
@@ -273,15 +288,26 @@ p.gallery{
 }
 .form {
     width:35%;
-    float:left;
-    padding-left:5%;
-    padding-right:10%;
-    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+
+
+.form, h2 {
+    text-orientation: sideways;
+    writing-mode: horizontal-tb;
+}
+
+#email {
+    padding-top: 15px;
 }
 
 .button {
     padding: 10px 10px 10px 10px;
     border-radius: 8px;
+    padding-top: 15px;
     }
 
 .button:hover {
@@ -296,6 +322,6 @@ p.gallery{
 .text {
     box-sizing: border-box;
     border-radius: 10%;
-    border: 1px solid blue;
-    display: inline;
+
+    
 }
