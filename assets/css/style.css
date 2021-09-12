@@ -89,7 +89,7 @@ h1 {
         margin-top: 30px;
     }
 }
-}
+
 
 
 
@@ -151,6 +151,26 @@ p.gallery{
     
 }
 
+@media only screen and (min-width: 1350px) and (max-width: 2000px){
+    #gorilla {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    #bear {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #lion {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    #bear, p.gallery {
+        margin-top: 10px;
+    }
+    
+    
+}
 
 #bear {
     width: 90%;
@@ -226,6 +246,10 @@ p.gallery{
        margin-bottom: 20px;
     }
 
+}
+
+.about {
+    margin-top: 50px;
 }
 
 #photos {
@@ -317,14 +341,26 @@ p.gallery{
     writing-mode: horizontal-tb;
 }
 
+#lname {
+    padding-top: 5%;
+
+}
+
+#fname {
+    padding-top: 5%;
+}
+
 #email {
-    padding-top: 15px;
+  
+    padding-top: 5px;
 }
 
 .button {
     padding: 10px 10px 10px 10px;
     border-radius: 8px;
     padding-top: 15px;
+    background: transparent;
+    font-size: x-large;
     }
 
 .button:hover {
@@ -339,6 +375,5 @@ p.gallery{
 .text {
     box-sizing: border-box;
     border-radius: 10%;
-
-    
+    margin-bottom: 10px;
 }
