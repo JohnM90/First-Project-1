@@ -91,13 +91,7 @@ h1 {
 }
 }
 
-@media only screen and (max-width: 670px){
-        
-    #bear, #lion, #gorilla{
-        align: center;
-    }
 
-}
 
 
 .full_colum h2 {
@@ -130,7 +124,6 @@ h1 {
 
 @media only screen and (min-width: 250px) and (max-width: 670px){
     .one_third_colum {
-        align: center;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
@@ -162,7 +155,7 @@ p.gallery{
 #bear {
     width: 90%;
     height: 300px;
-    background: url('../css/images/bear-1102605_960_720.jpg') no-repeat center center;
+    background: url('../css/images/bear1.jpg.jpg') no-repeat center center;
     border-radius: 50%;
     float: left;
     background-size: cover;
@@ -225,7 +218,15 @@ p.gallery{
     }
 }
 
+@media only screen and (min-width: 812px) {
+           
+    
+    #lion {
+       margin-top: 30px;
+       margin-bottom: 20px;
+    }
 
+}
 
 #photos {
     clear: both;
