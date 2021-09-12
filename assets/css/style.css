@@ -125,7 +125,7 @@ p.gallery{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    
+    line-height: 10%;
 }
 
 
@@ -196,7 +196,7 @@ p.gallery{
 }
 
 
-/**************** Zoo ****************/
+
 #photos {
     clear: both;
     line-height: 0;
@@ -215,20 +215,6 @@ p.gallery{
 }
 
 
-   .left-heading {
-       float: left;
-       height: 200px;
-       line-height: 650px;
-       text-align: center;
-   }
-
-   .right-heading {
-       float: right;
-       height: 200px;
-       line-height: 650px;
-       text-align: center;
-    
-   }
 
       
 
@@ -278,7 +264,7 @@ p.gallery{
  }
 
  .fab {
-     font-size:300%;
+     font-size:100%;
      color: black;
  }
 
