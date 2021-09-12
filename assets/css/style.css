@@ -228,6 +228,7 @@ p.gallery{
     .one_third_colum{
         width: 45%;
         margin-left: 3%;
+        
     }
 
     #bear, #lion, #gorilla{
@@ -235,6 +236,11 @@ p.gallery{
         width: 70%;
         margin-left: 15%;
         margin-bottom: 25px;
+       
+    }
+
+    #lion {
+        margin-top: 50px;
     }
 }
 
