@@ -111,6 +111,7 @@ h1 {
 
 @media only screen and (min-width: 250px) and (max-width: 670px){
     .one_third_colum {
+        
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
@@ -118,11 +119,7 @@ h1 {
 
     #times, h4 {
         margin-top: -2%;
-        }
-
-    section {
-        margin-top: -20%;
-    }
+        }  
 }
 
 #elephant {
