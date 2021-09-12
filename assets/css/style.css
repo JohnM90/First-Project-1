@@ -91,14 +91,14 @@ h1 {
 }
 }
 
-.full_colum{
-    display: block;
-    position: relative;
-    width: 100%;
-    
-    margin:20px auto 0 auto;
-    height: auto;
+@media only screen and (max-width: 670px){
+        
+    #bear, #lion, #gorilla{
+        align: center;
+    }
+
 }
+
 
 .full_colum h2 {
     text-align: center;
@@ -130,7 +130,7 @@ h1 {
 
 @media only screen and (min-width: 250px) and (max-width: 670px){
     .one_third_colum {
-        
+        align: center;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
