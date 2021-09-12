@@ -12,6 +12,7 @@ body {
     font-family: merriweather, sans-serif;
     font-family: merriweather, sans-serif;
     font-weight: 900;
+    overflow-x: hidden;
 }
 
 #logo {
@@ -29,7 +30,15 @@ body {
 
 }
 
-  
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    #logo{
+        font-size: larger;
+    }
+}
+
+
+
 
 h1 {
     color: seagreen;
@@ -67,13 +76,20 @@ h1 {
     display: block;
     position: relative;
     width: 100%;
-    max-width:800px;
+    
     margin:20px auto 0 auto;
     height: auto;
-    text-align:center;
 }
+
+.full_colum h2 {
+    text-align: center;
+}
+
 .full_colum p {
-    margin-top:20px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
 }
 
 .one_third_colum{
@@ -112,17 +128,7 @@ p.gallery{
     
 }
 
-@media only screen and (min-width: 768px) {
 
-}
-
-@media only screen and (min-width: 600px) {
-
-}
-
- @media only screen and (min-width: 992px) {
-
- }
 #bear {
     width: 90%;
     height: 300px;
@@ -159,8 +165,38 @@ p.gallery{
     display: block;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .one_third_colum{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #bear, #lion, #gorilla{
+        height: 200px;
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .one_third_colum{
+        width: 45%;
+        margin-left: 3%;
+    }
+
+    #bear, #lion, #gorilla{
+        height: 250px;
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 25px;
+    }
+}
 
 
+/**************** Zoo ****************/
 #photos {
     clear: both;
     line-height: 0;
@@ -271,37 +307,9 @@ p.gallery{
 
 
 
-    .text {
-         box-sizing: border-box;
-         border-radius: 10%;
-         border: 1px solid blue;
-         display: inline;
-          }
-    
-
-    @media only screen and (max-width: 600px) {
-
-    }
-
-    @media only screen and (min-width: 768px) {
-    
-    }
-    
-    @media only screen and (min-width: 600px) {
-    
-    }
-    
-     @media only screen and (min-width: 992px) {
-    
-     }
-    
-
-    
-
-    @media only screen and (min-width: 992px) {
-
-    }
-   
-    @media only screen and (min-width: 1200px) {
-
-    }
+.text {
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 1px solid blue;
+    display: inline;
+}
