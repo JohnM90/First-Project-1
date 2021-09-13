@@ -21,9 +21,7 @@ Has a working sign up button and a nice background image that compliments the pa
 <h2>Testing</h2>
 <li>This site features a menu stystem with 4 links to 4 pages, a sign up feature and  links to social media. I have contionusly tested that all these work throughout the project and can confirm all are working as intended.<li>
 
-
-
-<li>The website also was tested on https://www.responsinator.com/ to make sure that the website worked on different phone screens and ipads/android tablets.</li>
+<li>The website also was tested on https://www.responsinator.com/ and google developer tools to make sure that the website worked on different phone screens and ipads/android tablets.</li>
 
 <h3>Validator Testing</h3>
 <ol>
@@ -45,13 +43,14 @@ The links are:</ol>
 The about us section text I wrote myself.
 For the times,prices and locations i used each of these websites also.
 The code for the social media links i took from the love running project.
-I also reused the city icons from love running because it went well with the design and dublin and belfast are cities.
+I also reused the city icons from love running because it went well with the design and Dublin,Belfast are cities, the camera icon was used for Cork zoo.
 My home page was a bit of a mess at the start and my mentor helped me fix it and make it more organised. The structure of my website was messing wih the rest of the page. He helped me with organising the code above the three centered images of Dublin,cork and belfast zoo.
 
 <h3>Media</h3>
-All the images were taken from https://www.pexels.com/
-Font awesome was used for icons
-I used google fonts to change the font.
+<li>
+All the images were taken from https://www.pexels.com/</li>
+<li>Font awesome was used for icons</li>
+<li>I used google fonts to change the font.</li>
 
 <h2>Acknowledgement</h2>
 

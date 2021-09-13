@@ -152,19 +152,11 @@ p.gallery{
 }
 
 @media only screen and (min-width: 1350px) and (max-width: 2000px){
-    #gorilla {
+    #gorilla, #bear, #lion {
         margin-top: 40px;
         margin-bottom: 10px;
     }
-    #bear {
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    #lion {
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
+ 
     #bear, p.gallery {
         margin-top: 10px;
     }
@@ -283,7 +275,7 @@ p.gallery{
     padding-top: 15px;
 }
 
-#times div {
+#times > div {
     background: url('../css/images/lion3.jpg'); 
     background-size: cover;
     color: #fafafa;
@@ -294,13 +286,8 @@ p.gallery{
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-
-}
-
-       #footer {
-        height:150px
-        
     }
+
     
  .social-networks {
      text-align: center;
@@ -336,10 +323,6 @@ p.gallery{
 
 
 
-.form, h2 {
-    text-orientation: sideways;
-    writing-mode: horizontal-tb;
-}
 
 #lname {
     padding-top: 5%;
@@ -361,6 +344,7 @@ p.gallery{
     padding-top: 15px;
     background: transparent;
     font-size: x-large;
+    
     }
 
 .button:hover {
