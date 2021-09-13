@@ -54,7 +54,7 @@ All the images were taken from https://www.pexels.com/</li>
 
 <h2>Acknowledgement</h2>
 
-Thanks to my mentor for helping me and explaining things more clearly and putting me on the right track with the structure of my home page and also for helping me understand the media querys.
+Thanks to my mentor for helping me and explaining things more clearly and putting me on the right track with the structure of my home page and also for helping me understand the media querys and writing the code for the small screens.
 
 
 
